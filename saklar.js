@@ -4,10 +4,10 @@ function saklar(command, type) {
     let lampu2 = document.getElementById("lampu2");
     let lampu3 = document.getElementById("lampu3");
 
-    let sound = document.getElementById("saklar-sound")
+    let sound_on = document.getElementById("saklar-sound")
 
-    sound.currentTime = 0;
-    sound.play();
+    sound_on.currentTime = 0;
+    sound_on.play();
 
     if (command == "on") {
         if (type == "lampu1") {
