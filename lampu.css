@@ -1,4 +1,6 @@
-
+body {
+    background-color: white;
+}
 .lampu-container {
     display: flex;
     justify-content: center;
