@@ -1,0 +1,27 @@
+body {
+    background-color: darkblue;
+}
+
+
+.lampu-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.lampu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.lampu button {
+    display: flex;
+    gap: 10px;
+}
